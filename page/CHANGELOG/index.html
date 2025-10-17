@@ -4003,6 +4003,7 @@
 <h1 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link">#</a></h1>
 <h2 id="unreleased-901">Unreleased 9.0.1<a class="headerlink" href="#unreleased-901" title="Permanent link">#</a></h2>
 <ul>
+<li>Fix <code>lsp-org</code> for org >= 9.7 (see #4300)</li>
 <li>Add format on save support</li>
 <li>Fix beancount journal file init option</li>
 <li>Add support for <a href="https://github.com/glehmann/earthlyls">earthlyls</a></li>
@@ -4085,6 +4086,7 @@
 <li>Fix bug in lsp-odin where <code>f-join</code> collapses double slashes. Using
     <code>format</code> instead.</li>
 <li>Fix missing gopls inlay hints when <code>lsp-use-plist</code> is true</li>
+<li>Fix bug where persist was attempted when lsp-session-file is nil</li>
 </ul>
 <h2 id="900">9.0.0<a class="headerlink" href="#900" title="Permanent link">#</a></h2>
 <ul>
@@ -4667,7 +4669,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 3, 2025</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 17, 2025</span>
       
     
   </small>
